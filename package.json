@@ -94,12 +94,12 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "release-it": "^13.5.2",
+    "release-it": "^17.6.0",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-bundle-analyzer": "^3.6.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^5.95.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }
