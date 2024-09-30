@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   extends: [
-    'airbnb',
+    // 'airbnb',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
