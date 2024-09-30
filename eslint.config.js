@@ -1,14 +1,12 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   extends: [
-    // 'airbnb',
+    'airbnb',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
   ],
   env: {
     browser: true,
@@ -56,7 +54,6 @@ module.exports = {
         args: 'after-used',
         argsIgnorePattern: '^_',
         ignoreRestSiblings: false,
-        ignoreRestSiblings: true,
         caughtErrorsIgnorePattern: '^ignore',
       },
     ],
@@ -122,7 +119,6 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-boolean-value': ['error', 'always'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    'react/jsx-no-bind': 'off',
     'react/no-unescaped-entities': 'off',
     'react/static-property-placement': 'off',
     'react/prop-types': 'off',
@@ -149,4 +145,4 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/alt-text': 'off',
   },
-}
+};

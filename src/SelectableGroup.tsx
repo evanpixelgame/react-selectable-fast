@@ -628,7 +628,7 @@ export class SelectableGroup extends Component<TSelectableGroupProps> {
 
   keyListener = (evt: KeyboardEvent) => {
     if (evt.keyCode === 27) {
-      // escape
+      // Escape
       this.clearSelection()
     }
   }

@@ -44,6 +44,7 @@ export const createSelectable = <T extends object>(
 
     render() {
       const { isSelected, ...restProps } = this.props // Destructure to ensure we get props correctly
+
       return (
         <WrappedComponent
           {...(restProps as T)} // Ensure the rest props are of the correct type
